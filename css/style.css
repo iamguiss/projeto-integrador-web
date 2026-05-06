@@ -1,0 +1,46 @@
+body {
+    background-color: #f7fbf7
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #1B5E20;
+}
+
+h3 {
+    
+}
+
+
+div{
+    display: flex;
+    gap: 20px;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;   
+}
+
+nav a {
+    text-decoration: none;
+    color: #2F3A2F;
+
+}
+
+.botao-orcamento {
+    text-decoration: none;
+    background-color: #2E7D32;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
