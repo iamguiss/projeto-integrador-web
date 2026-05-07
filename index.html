@@ -1,78 +1,107 @@
 <!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início | Flora Garden</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Início | Flora Garden</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <header>
+      <h3><a href="index.html">Flora Garden</a></h3>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<body>
-  <header>
-    <h3><a href="index.html">Flora Garden</a></h3>
-    <div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="html/servico.html">Serviços</a></li>
-          <li><a href="html/sobre.html">Sobre</a></li>
-          <li><a href="html/galeria.html">Galeria</a></li>
-          <li><a href="html/contato.html">Contato </a></li>
-        </ul>
-      </nav>
-      <a class="botao-orcamento" href="#">Solicitar Orçamento</a>
-    </div>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <h2>Paisagismo e floricultura para transformar ambientes</h2>
-        <h1>
-          Transformamos seu espaço em um ambiente natural, elegante e
-          acolhedor
-        </h1>
-        <p>
-          Criamos projetos de paisagismo e decoração verde para residências e
-          empresas, unindo beleza, bem-estar e funcionalidade.
-        </p>
-        <div class="buttons">
-          <a href="html/contato.html">Fale Conosco</a>
-          <a href="html/galeria.html">Ver Projetos</a>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/servico.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/contato.html">Contato</a>
+              </li>
+            </ul>
+            <a class="botao-orcamento ms-lg-3" href="#">Solicitar Orçamento</a>
+          </div>
         </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-texto">
+          <h2>Paisagismo e floricultura para transformar ambientes</h2>
+          <h1>
+            Transformamos seu espaço em um ambiente natural, elegante e
+            acolhedor
+          </h1>
+          <p>
+            Criamos projetos de paisagismo e decoração verde para residências e
+            empresas, unindo beleza, bem-estar e funcionalidade.
+          </p>
+          <div class="buttons">
+            <a class="botao-verde" href="html/contato.html">Fale Conosco</a>
+            <a class="botao-branco" href="html/galeria.html">Ver Projetos</a>
+          </div>
+        </div>
+        <div>
+          <img src="img/homeJardim.jpg" alt="Imagem de jardim" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer text-center py-4">
+      <div class="footer-esquerda">
+        <p>Guilherme Silva Santos</p>
+        <p>(11) 95888-7725</p>
       </div>
-      <div>
-        <img src="img/homeJardim.jpg" alt="Imagem de jardim" />
+      <div class="footer-centro">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="html/servico.html">Serviços</a></li>
+            <li><a href="html/sobre.html">Sobre</a></li>
+            <li><a href="html/galeria.html">Galeria</a></li>
+            <li><a href="html/contato.html">Contato </a></li>
+          </ul>
+        </nav>
+        <p>© 2026 Flora Garden - Todos os direitos reservados</p>
       </div>
-    </section>
-  </main>
+      <div class="footer-direita">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li><a href="https://www.facebook.com/floragarden" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/__.floragarden?igsh=MW40dnIzYXp5cGFwOA%3D%3D&utm_source=qr" target="_blank">Instagram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
 
-  <footer>
-    <p>Guilherme Silva Santos</p>
-    <p>(11) 95888-7725</p>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="html/servico.html">Serviços</a></li>
-        <li><a href="html/sobre.html">Sobre</a></li>
-        <li><a href="html/galeria.html">Galeria</a></li>
-        <li><a href="html/contato.html">Contato </a></li>
-      </ul>
-    </nav>
-
-    <nav>
-      <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
-    </nav>
-
-    <p>© 2026 Flora Garden - Todos os direitos reservados</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
