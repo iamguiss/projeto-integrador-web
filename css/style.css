@@ -2,6 +2,7 @@ body {
   background-color: #f7fbf7;
 }
 
+/* CSS - Padrão HEADER - USO CONTINUO */
 header {
   display: flex;
   justify-content: space-between;
@@ -30,7 +31,7 @@ nav a {
 .botao-orcamento {
   text-decoration: none;
   background-color: #2e7d32;
-  color: rgb(0, 0, 0);
+  color: white;
   padding: 16px 14px;
   border-radius: 12px;
   font-size: 16px;
@@ -47,6 +48,9 @@ nav a {
 .botao-orcamento:active {
   transform: translateY(0);
 }
+
+/* CSS - Página HOME - USO CONTINUO */
+
 .hero {
   display: flex;
   align-items: center;
@@ -71,7 +75,7 @@ nav a {
   font-size: 62px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  color: #183A1D;
+  color: #183a1d;
   margin-bottom: 30px;
 }
 
@@ -137,6 +141,7 @@ nav a {
   box-shadow: 0 0 0 2px #1b5e20;
 }
 
+/* CSS - Padrão FOOTER - USO CONTINUO */
 .footer {
   background-color: #1b5e20;
   color: white;
@@ -179,4 +184,195 @@ nav a {
 
 .footer p {
   margin: 0;
+}
+
+/* HTML - CSS - Página de Serviços */
+.text-principal {
+  text-align: center;
+}
+.text-principal h1 {
+  font-size: 40px;
+  color: #183a1d;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.text-principal p {
+  color: #4a5a4a;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.servico-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 15%;
+  justify-content: center;
+}
+.servico-cards .card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.servico-cards .card h3 {
+  color: #183a1d;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.servico-cards .card p {
+  color: #183a1d;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.servico-cards .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.servico-cards .card:active {
+  transform: translateY(0);
+}
+.contato-servico {
+  margin: 50px 0;
+}
+
+.contato-servico p {
+  color: #183a1d;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.botao-verde-cta-servico {
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+  padding: 16px 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 2px solid #2e7d32;
+  transition: all 0.3s ease;
+}
+.botao-verde-cta-servico:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+}
+.botao-verde-cta-servico:active {
+  transform: translateY(0);
+}
+
+/* HTML - CSS - Página de Sobre */
+
+.contato-sobre {
+  margin-left: 450px;
+  margin-top: -100px;
+}
+.contato-sobre p {
+  color: #183a1d;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.botao-verde-cta-sobre {
+  margin-left: 110px;
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+  padding: 16px 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 2px solid #2e7d32;
+  transition: all 0.3s ease;
+}
+.botao-verde-cta-sobre:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+}
+.botao-verde-cta-sobre:active {
+  transform: translateY(0);
+}
+
+/* HTML - CSS - Página de Contato */
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 15%;
+}
+.texto-contato {
+  display: flex;
+  flex-direction: column;
+}
+.texto-contato h1 {
+  font-size: 40px;
+  color: #183A1D;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+
+}
+.texto-contato p {
+  color: #4a5a4a;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form{
+  margin-top: -50px;
+}
+.contact-form h3 {
+  color: #183a1d;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-form button {
+  width: 250px;
+  align-self: center;
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 2px solid #2E7D32;
+  transition: all 0.3s ease;
+}
+.contact-form button:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+}
+.contact-form button:active {
+  transform: translateY(0);
 }

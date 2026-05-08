@@ -4,24 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre | Flora Garden</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body style="background-color: #f7fbf7">
+  <body>
     <header>
       <h3><a href="../index.html">Flora Garden</a></h3>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="servico.html">Serviços</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="contato.html">Contato </a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servico.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <a class="botao-orcamento ms-lg-3" href="#">Solicitar Orçamento</a>
+          </div>
+        </div>
       </nav>
-      <a href="#">Solicitar Orçamento</a>
     </header>
-    <main>
-      <section>
-        <div>
+    <main> 
+      <section class="hero">
+        <div class="hero-texto">
           <h2>Sobre a Flora Garden</h2>
           <h1>
             Transformamos seu espaço com natureza, equilíbrio e sofisticação.
@@ -32,43 +63,61 @@
             ambientes residenciais e comerciais. Nosso objetivo é criar espaços
             que tragam conforto, bem-estar e conexão com a natureza.
           </p>
-          <ul>
-            <li>Projetos personalizados</li>
-            <li>Atendimento especializado</li>
-            <li>Foco em qualidade</li>
+          <ul class="list-unstyled">
+            <li>✔Projetos personalizados</li>
+            <li>✔Atendimento especializado</li>
+            <li>✔Foco em qualidade</li>
           </ul>
         </div>
 
-        <div>
-          <img src="../img/Sobrejardim.jpg" alt="Jardim residencial com plantas decorativas e paisagismo" />
+        <div class="hero-imagem">
+          <img
+            src="../img/Sobrejardim.jpg"
+            alt="Jardim residencial com plantas decorativas e paisagismo"
+          />
         </div>
       </section>
-      <section>
+      <section class="contato-sobre py-5">
         <p>Pronto para transformar seu espaço?</p>
-        <a href="contato.html">Fale conosco</a>
+        <a class="botao-verde-cta-sobre" href="contato.html">Fale conosco</a>
       </section>
     </main>
-    <footer>
-      <p>Guilherme Silva Santos</p>
-      <p>(11) 95888-7725</p>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="servico.html">Serviços</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="contato.html">Contato </a></li>
-        </ul>
-      </nav>
-
-      <nav>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-      </nav>
-
-      <p>© 2026 Flora Garden - Todos os direitos reservados</p>
+    <footer class="footer text-center py-4">
+      <div class="footer-esquerda">
+        <p>Guilherme Silva Santos</p>
+        <p>(11) 95888-7725</p>
+      </div>
+      <div class="footer-centro">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="servico.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato </a></li>
+          </ul>
+        </nav>
+        <p>© 2026 Flora Garden - Todos os direitos reservados</p>
+      </div>
+      <div class="footer-direita">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li>
+              <a href="https://www.facebook.com/floragarden" target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/__.floragarden?igsh=MW40dnIzYXp5cGFwOA%3D%3D&utm_source=qr"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -4,71 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato | Flora Garden</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body style="background-color: #f7fbf7">
+  <body>
     <header>
       <h3><a href="../index.html">Flora Garden</a></h3>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="servico.html">Serviços</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="contato.html">Contato </a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servico.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <a class="botao-orcamento ms-lg-3" href="#">Solicitar Orçamento</a>
+          </div>
+        </div>
       </nav>
-      <a href="#">Solicitar Orçamento</a>
     </header>
     <main>
-      <section>
-        <div class="contact-info">
+      <section class="text-principal">
+        <h1>Entre em Contato</h1>
+        <p>Estamos prontos para ajudar a transformar seu espaço!</p>
+      </section>
+      <section class="contact-section">
+        <div class="texto-contato">
           <h3>Fale com a Flora Garden</h3>
-          <p>Telefone: (11) 95888-7725</p>
-          <p>E-mail: contato@floragarden.com</p>
-          <p>Endereço: Rua das Flores, 123 - Jardim Botânico, São Paulo - SP</p>
-          <p>Horário de Atendimento: Segunda a Sexta: 9h às 18h</p>
+          <p>Telefone: 
+            <p>(11) 95888-7725</p>
+          </p>
+          <p>E-mail: 
+            <p>contato@floragarden.com</p>
+          </p>  
+          <p>Endereço: 
+            <p>Rua das Flores, 123 - Jardim Botânico, São Paulo - SP</p>
+          </p>
+          <p>Horário de Atendimento: 
+            <p>Segunda a Sexta: 9h às 18h</p>
+          </p>
         </div>
         <div class="contact-form">
           <h3>Formulário de Contato</h3>
-          <form action="#" method="post">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required />
-            <label for="telefone">Telefone:</label><br />
-            <input type="tel" id="telefone" name="telefone" required />
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required />
-            <label for="message">Mensagem:</label><br />
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <input type="submit" value="Enviar" />
-          </form>
+          <form action="#" method="post" class="formulario-contato"> 
+            <div class="linha-dupla">   
+              <input type="text" id="name" name="name" placeholder="Nome" required />   
+              <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required /> 
+              </div>  <input type="email" id="email" name="email" placeholder="E-mail" required /> 
+              <textarea id="message"name="message"rows="5"placeholder="Mensagem" required></textarea> 
+              <button type="submit">Enviar</button>
+            </form>
         </div>
       </section>
-      <section>
+      <section class="">
         <p>Prefere um atendimento mais rápido?</p>
         <a href="https://wa.me/5511958887725">Enviar mensagem pelo WhatsApp</a>
       </section>
     </main>
-    <footer>
-      <p>Guilherme Silva Santos</p>
-      <p>(11) 95888-7725</p>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="servico.html">Serviços</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="contato.html">Contato </a></li>
-        </ul>
-      </nav>
-
-      <nav>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-      </nav>
-
-      <p>© 2026 Flora Garden - Todos os direitos reservados</p>
+    <footer class="footer text-center py-4">
+      <div class="footer-esquerda">
+        <p>Guilherme Silva Santos</p>
+        <p>(11) 95888-7725</p>
+      </div>
+      <div class="footer-centro">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="servico.html">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato </a></li>
+          </ul>
+        </nav>
+        <p>© 2026 Flora Garden - Todos os direitos reservados</p>
+      </div>
+      <div class="footer-direita">
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center gap-3">
+            <li>
+              <a href="https://www.facebook.com/floragarden" target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/__.floragarden?igsh=MW40dnIzYXp5cGFwOA%3D%3D&utm_source=qr"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
