@@ -376,3 +376,100 @@ nav a {
 .contact-form button:active {
   transform: translateY(0);
 }
+
+.texto-final-contato {
+  text-align: center;
+    margin: 50px 0;
+}
+
+.texto-final-contato p {
+  color: #183a1d;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 35px;
+}
+
+/* .botao-verde-contato {
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 2px solid #2e7d32;
+  transition: all 0.3s ease;
+}
+
+.botao-verde-contato:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+}
+
+.botao-verde-contato:active {
+  transform: translateY(0);
+}
+ */
+
+
+ /* HTML - CSS - Página de Galeria */
+
+.galaria-carrosel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 15%;
+}
+
+.carousel-inner {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-inner .carousel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.carousel-item {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  width: 35%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.
+
+
+
+
+
+
+
+.botao-verde-cta-galeria {
+  text-decoration: none;
+  background-color: #2e7d32;
+  color: white;
+  padding: 16px 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 2px solid #2e7d32;
+  transition: all 0.3s ease;
+}
+.botao-verde-cta-galeria:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+}
+.botao-verde-cta-galeria:active {
+  transform: translateY(0);
+}
