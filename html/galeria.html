@@ -1,129 +1,175 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeria | Flora Garden</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h3><a href="../index.html">Flora Garden</a></h3>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-            aria-controls="menu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria | Flora Garden</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" F />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h3><a href="../index.html">Flora Garden</a></h3>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servico.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+          <a class="botao-orcamento ms-lg-3" href="#">Solicitar Orçamento</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="text-principal">
+      <h1>Nossos Projetos</h1>
+      <p>Confira alguns dos nossos trabalhos realizados,</p>
+    </section>
+    <section class="galeria-carrosel">
+
+      <!-- CARD 1 -->
+      <div class="galeria-card">
+
+        <div id="card1" class="carousel slide">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="../img/img1.jpg" class="d-block w-100" alt="Projeto de jardim residencial">
+            </div>
+
+            <div class="carousel-item">
+              <img src="../img/img2.jpg" class="d-block w-100" alt="Paisagismo moderno">
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#card1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servico.html">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
-              </li>
-            </ul>
-            <a class="botao-orcamento ms-lg-3" href="#">Solicitar Orçamento</a>
-          </div>
+          <button class="carousel-control-next" type="button" data-bs-target="#card1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
         </div>
-      </nav>
-    </header>
-    <main>
-      <section class="text-principal">
-        <h1>Nossos Projetos</h1>
-        <p>Confira alguns dos nossos trabalhos realizados,</p>
-      </section>
-      <section class="galeria-carrosel">
-        <div class="galeria-card">
 
-  <div id="card1" class="carousel slide">
-
-    <div class="carousel-inner">
-
-      <div class="carousel-item active">
-        <img src="../img/img1.jpg" class="d-block w-100">
       </div>
 
-      <div class="carousel-item">
-        <img src="../img/img2.jpg" class="d-block w-100">
+      <!-- CARD 2 -->
+      <div class="galeria-card">
+
+        <div id="card2" class="carousel slide">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="../img/img3.jpg" class="d-block w-100" alt="Área verde decorativa">
+            </div>
+
+            <div class="carousel-item">
+              <img src="../img/img4.jpg" class="d-block w-100" alt="Projeto externo com plantas">
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#card2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#card2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+
       </div>
+      <!-- CARD 3 -->
+      <div class="galeria-card">
+        <div id="card3" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/img5.jpg" class="d-block w-100" alt="Espaço com jardim planejado">
+            </div>
+
+            <div class="carousel-item">
+              <img src="../img/img6.jpg" class="d-block w-100" alt="Paisagismo em varanda">
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#card3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#card3" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
 
     </div>
+    <section class="text-final-galeria">
+      <p>Gostou de um de nossos projetos?</p>
+      <a class="botao-verde-cta-galeria" href="contato.html">Fale Conosco</a>
+    </section>
+  </main>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#card1" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-
-    <button class="carousel-control-next" type="button" data-bs-target="#card1" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-
-  </div>
-      </section>
-      <section class="text-final-galeria">
-        <p>Gostou de um de nossos projetos?</p>
-        <a class="botao-verde-cta-galeria" href="contato.html">Fale Conosco</a>
-      </section>
-    </main>
-
-    <footer class="footer text-center py-4">
-      <div class="footer-esquerda">
-        <p>Guilherme Silva Santos</p>
-        <p>(11) 95888-7725</p>
-      </div>
-      <div class="footer-centro">
-        <nav>
-          <ul class="list-unstyled d-flex justify-content-center gap-3">
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="servico.html">Serviços</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contato.html">Contato </a></li>
-          </ul>
-        </nav>
-        <p>© 2026 Flora Garden - Todos os direitos reservados</p>
-      </div>
-      <div class="footer-direita">
-        <nav>
-          <ul class="list-unstyled d-flex justify-content-center gap-3">
-            <li>
-              <a href="https://www.facebook.com/floragarden" target="_blank"
-                >Facebook</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/__.floragarden?igsh=MW40dnIzYXp5cGFwOA%3D%3D&utm_source=qr"
-                target="_blank"
-                >Instagram</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <footer class="footer text-center py-4">
+    <div class="footer-esquerda">
+      <p>Guilherme Silva Santos</p>
+      <p>(11) 95888-7725</p>
+    </div>
+    <div class="footer-centro">
+      <nav>
+        <ul class="list-unstyled d-flex justify-content-center gap-3">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="servico.html">Serviços</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contato.html">Contato </a></li>
+        </ul>
+      </nav>
+      <p>© 2026 Flora Garden - Todos os direitos reservados</p>
+    </div>
+    <div class="footer-direita">
+      <nav>
+        <ul class="list-unstyled d-flex justify-content-center gap-3">
+          <li>
+            <a href="https://www.facebook.com/floragarden" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/__.floragarden?igsh=MW40dnIzYXp5cGFwOA%3D%3D&utm_source=qr"
+              target="_blank">Instagram</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
